@@ -1,0 +1,40 @@
+{
+  "name": "graphtest",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Testing out some graph libraries, specifically visualizing a graph written in DOT",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "browserify -t brfs ./ -o bundle.js",
+    "watch": "watchify -t brfs ./ -o bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/RangerMauve/graphtest.git"
+  },
+  "keywords": [
+    "graph",
+    "dot",
+    "svg",
+    "visual",
+    "render"
+  ],
+  "author": "rangermauve",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RangerMauve/graphtest/issues"
+  },
+  "homepage": "https://github.com/RangerMauve/graphtest",
+  "devDependencies": {
+    "brfs": "^1.2.0",
+    "browserify": "^6.3.3",
+    "watchify": "^2.1.1"
+  },
+  "dependencies": {
+    "dagre": "^0.6.4",
+    "graphlib-dot": "^0.6.1",
+    "mustache": "^0.8.2"
+  },
+  "browserify": ["brfs"]
+}

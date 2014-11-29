@@ -1,0 +1,12 @@
+<svg viewbox="{{offsetX}} {{offsetY}} {{width}} {{height}}">
+	<g transform="translate(0 -12)">
+		{{#nodes}}
+		<circle cx="{{x}}" cy="{{y}}" r="12" fill="none" stroke="black" stroke-width="2"/>
+		{{/nodes}}
+	</g>
+	<g>
+		{{#edges}}
+		<line x1="{{points.0.x}}" y1="{{points.0.y}}" x2="{{points.1.x}}" y2="{{points.1.y}}" stroke="black" stroke-width="1"/>
+		{{/edges}}
+	</g>
+</svg>
