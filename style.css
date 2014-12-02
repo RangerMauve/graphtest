@@ -1,0 +1,37 @@
+html {
+	font-family: Helvetica;
+}
+
+svg {
+	display: block;
+	margin: 20px auto;
+	height: 400px;
+}
+header {
+	display: flex;
+}
+header > section {
+	display: flex;
+	flex: 1;
+	margin: 4px;
+	min-height: 400px;
+	tab-size: 2;
+	flex-direction: column;
+}
+header > section > textarea {
+	flex: 1;
+}
+main {
+	border: 1px solid black;
+	border-radius: 4px;
+	padding: 8px;
+}
+footer pre {
+	white-space: pre-wrap;
+	tab-size: 2;
+}
+footer {
+	display: block;
+	max-width: 600px;
+	margin: 16px auto;
+}
