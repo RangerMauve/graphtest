@@ -1,11 +1,27 @@
 <!DOCTYPE html>
 <title>Graph Test</title>
-<style>
-	svg {
-		display: block;
-		margin: 20px auto;
-		height: 400px;
-	}
-</style>
-<main></main>
+<link rel="stylesheet" href="style.css" />
+<h1>Graph Test</h1>
+<header>
+	<section>
+		<h2>Graph definition <small><a href="http://en.wikipedia.org/wiki/DOT_%28graph_description_language%29">(dot)</a></small></h2>
+		<textarea v-model="graph"></textarea>
+	</section>
+	<section>
+		<h2>SVG template <small><a href="https://github.com/janl/mustache.js">(mustache)</a></small></h2>
+		<textarea v-model="template"></textarea>
+	</section>
+	<section>
+		<h2>Dagre settings <small><a href="https://github.com/cpettitt/dagre/wiki">(docs)</a></small></h2>
+		<textarea v-model="layout"></textarea>
+	</section>
+</header>
+<section>
+	<h2>Output:</h2>
+	<main v-html="rendered"></main>
+</section>
+<footer>
+	<h2>Output string</h2>
+	<pre>{{rendered}}</pre>
+</footer>
 <script src="bundle.js"></script>
