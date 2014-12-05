@@ -21703,7 +21703,7 @@ var vm = new Vue({
 		template: "<svg\r\n\tviewbox=\"\r\n\t\t{{offsetX}}\r\n\t\t{{offsetY}}\r\n\t\t{{width}}\r\n\t\t{{height}}\r\n\t\"\r\n\t>\r\n\t<defs>\r\n\t\t<marker id=\"Triangle\"\r\n\t\tviewBox=\"0 0 10 10\"\r\n\t\trefX=\"10\" refY=\"5\"\r\n\t\tmarkerWidth=\"6\"\r\n\t\tmarkerHeight=\"6\"\r\n\t\torient=\"auto\">\r\n\t\t<path d=\"M 0 0 L 10 5 L 0 10 z\" />\r\n\t</defs>\r\n\t<g>\r\n\t\t{{#edges}}\r\n\t\t<polyline\r\n\t\t\tmarker-end=\"url(#Triangle)\"\r\n\t\t\tpoints=\"\r\n\t\t\t\t{{#points}}\r\n\t\t\t\t\t{{x}},{{y}}\r\n\t\t\t\t{{/points}}\r\n\t\t\t\"\r\n\t\t\tstroke=\"black\"\r\n\t\t\tfill=\"none\"\r\n\t\t\tstroke-width=\"1\"\r\n\t\t/>\r\n\t\t{{/edges}}\r\n\t</g>\r\n\t<g>\r\n\t\t{{#nodes}}\r\n\t\t<g transform=\"translate(-{{rx}},-{{ry}})\">\r\n\t\t\t<rect\r\n\t\t\t\tx=\"{{x}}\"\r\n\t\t\t\ty=\"{{y}}\"\r\n\t\t\t\twidth=\"{{width}}\"\r\n\t\t\t\theight=\"{{height}}\"\r\n\t\t\t\tfill=\"none\"\r\n\t\t\t\tstroke=\"black\"\r\n\t\t\t\tstroke-width=\"1px\"\r\n\t\t\t/>\r\n\t\t</g>\r\n\t\t<text\r\n\t\t\ttext-anchor=\"middle\"\r\n\t\t\talignment-baseline=\"central\"\r\n\t\t\tx=\"{{x}}\"\r\n\t\t\ty=\"{{y}}\"\r\n\t\t\tfont-size=\"6\"\r\n\t\t>\r\n\t\t\t{{label}}\r\n\t\t</text>\r\n\t\t{{/nodes}}\r\n\t</g>\r\n</svg>\r\n"
 	},
 	computed: {
-		rendered: function () {
+		rendered: function() {
 			var data = this.$data;
 			try {
 				var graph = data.graph;
@@ -21714,6 +21714,9 @@ var vm = new Vue({
 			}
 			return rendered;
 		}
+	},
+	methods: {
+		handle_tabs: handle_tabs
 	}
 });
 
@@ -21748,8 +21751,8 @@ function process_graph(graph) {
 function process_node(graph, n) {
 	var node = graph.node(n);
 	node.label = n;
-	node.rx = parseInt(node.width)/2;
-	node.ry = parseInt(node.height)/2;
+	node.rx = parseInt(node.width) / 2;
+	node.ry = parseInt(node.height) / 2;
 	console.log("Node", n, node);
 	return node;
 }
@@ -21766,6 +21769,24 @@ function process_point(e) {
 	return {
 		x: e.x ? e.x : 0,
 		y: e.y ? e.y : 0
+	}
+}
+
+// Taken from http://jsfiddle.net/tovic/2wAzx/embedded/result,js/
+function handle_tabs(e) {
+	var el = e.target;
+	if (e.keyCode === 9) { // tab was pressed
+		// get caret position/selection
+		var val = el.value,
+			start = el.selectionStart,
+			end = el.selectionEnd;
+		// set textarea value to: text before caret + tab + text after caret
+		el.value = val.substring(0, start) + '\t' + val.substring(end);
+		// put caret at right position again
+		el.selectionStart = el.selectionEnd = start + 1;
+		// prevent the focus lose
+		e.preventDefault();
+		return false;
 	}
 }
 
