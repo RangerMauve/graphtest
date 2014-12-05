@@ -3,7 +3,7 @@
 <link rel="stylesheet" href="style.css" />
 <h1>Graph Test</h1>
 <header>
-	<section>
+	<section v-on="keydown: handle_tabs">
 		<h2>
 			Graph definition
 			<small><a href="http://en.wikipedia.org/wiki/DOT_%28graph_description_language%29">(syntax)</a></small>
@@ -11,7 +11,7 @@
 		</h2>
 		<textarea v-model="graph"></textarea>
 	</section>
-	<section>
+	<section v-on="keydown: handle_tabs">
 		<h2>SVG template <small><a href="https://github.com/janl/mustache.js">(mustache)</a></small></h2>
 		<textarea v-model="template"></textarea>
 	</section>

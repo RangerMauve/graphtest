@@ -12,7 +12,7 @@ var vm = new Vue({
 		template: fs.readFileSync("./template.html", "utf8")
 	},
 	computed: {
-		rendered: function () {
+		rendered: function() {
 			var data = this.$data;
 			try {
 				var graph = data.graph;
@@ -23,6 +23,9 @@ var vm = new Vue({
 			}
 			return rendered;
 		}
+	},
+	methods: {
+		handle_tabs: handle_tabs
 	}
 });
 
@@ -57,8 +60,8 @@ function process_graph(graph) {
 function process_node(graph, n) {
 	var node = graph.node(n);
 	node.label = n;
-	node.rx = parseInt(node.width)/2;
-	node.ry = parseInt(node.height)/2;
+	node.rx = parseInt(node.width) / 2;
+	node.ry = parseInt(node.height) / 2;
 	console.log("Node", n, node);
 	return node;
 }
@@ -75,5 +78,23 @@ function process_point(e) {
 	return {
 		x: e.x ? e.x : 0,
 		y: e.y ? e.y : 0
+	}
+}
+
+// Taken from http://jsfiddle.net/tovic/2wAzx/embedded/result,js/
+function handle_tabs(e) {
+	var el = e.target;
+	if (e.keyCode === 9) { // tab was pressed
+		// get caret position/selection
+		var val = el.value,
+			start = el.selectionStart,
+			end = el.selectionEnd;
+		// set textarea value to: text before caret + tab + text after caret
+		el.value = val.substring(0, start) + '\t' + val.substring(end);
+		// put caret at right position again
+		el.selectionStart = el.selectionEnd = start + 1;
+		// prevent the focus lose
+		e.preventDefault();
+		return false;
 	}
 }
