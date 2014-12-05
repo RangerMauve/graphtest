@@ -21699,18 +21699,16 @@ var par = require("par");
 var vm = new Vue({
 	el: "body",
 	data: {
-		graph: "digraph g {\r\n\tnode [shape=plaintext];\r\n\tA1 -> B1;\r\n\tA2 -> B2;\r\n\tA3 -> B3;\r\n\r\n\tA1 -> A2 [label=f];\r\n\tA2 -> A3 [label=g];\r\n\tB2 -> B3 [label=\"g'\"];\r\n\tB1 -> B3 [label=\"(g o f)'\" tailport=s headport=s];\r\n\r\n\t{ rank=same; A1 A2 A3 }\r\n\t{ rank=same; B1 B2 B3 }\r\n}\r\n",
-		template: "<svg\r\n\tviewbox=\"\r\n\t\t{{offsetX}}\r\n\t\t{{offsetY}}\r\n\t\t{{width}}\r\n\t\t{{height}}\r\n\t\"\r\n\t>\r\n\t<g>\r\n\t\t{{#edges}}\r\n\t\t<polyline\r\n\t\t\tpoints=\"\r\n\t\t\t\t{{#points}}\r\n\t\t\t\t\t{{x}},{{y}}\r\n\t\t\t\t{{/points}}\r\n\t\t\t\"\r\n\t\t\tstroke=\"black\"\r\n\t\t\tfill=\"none\"\r\n\t\t\tstroke-width=\"1\"\r\n\t\t/>\r\n\t\t{{/edges}}\r\n\t</g>\r\n\t<g>\r\n\t\t{{#nodes}}\r\n\t\t<circle\r\n\t\t\tcx=\"{{x}}\"\r\n\t\t\tcy=\"{{y}}\"\r\n\t\t\tr=\"12\"\r\n\t\t\tfill=\"white\"\r\n\t\t\tstroke=\"black\"\r\n\t\t\tstroke-width=\"2\"\r\n\t\t/>\r\n\t\t{{/nodes}}\r\n\t</g>\r\n</svg>\r\n",
-		layout: "{\r\n\t\"graph\": {\r\n\t\t\"edgesep\": 10,\r\n\t\t\"nodesep\": 40,\r\n\t\t\"rankdir\": \"LR\"\r\n\t}\r\n}\r\n"
+		graph: "digraph g {\r\n\t// This configures the graph itself\r\n\trankdir=LR;\r\n\tnodesep=10;\r\n\tranksep=50;\r\n\tmarginx=2;\r\n\tmarginy=2;\r\n\r\n\t// This is used to configure stuff to do with the nodes\r\n\tnode [width=20, height=20];\r\n\r\n\t// This configures the edges\r\n\tedge [minlen=1];\r\n\r\n\t// Some nodes\r\n\tA1 -> B1;\r\n\tA2 -> B2;\r\n\tA3 -> B3;\r\n\r\n\t// Ditto\r\n\tA1 -> A2;\r\n\tA2 -> A3;\r\n\tB2 -> B3;\r\n\tB1 -> B3;\r\n\r\n\t// Not sure if this does anything....\r\n\t{ rank=same; A1 A2 A3 }\r\n\t{ rank=same; B1 B2 B3 }\r\n}\r\n",
+		template: "<svg\r\n\tviewbox=\"\r\n\t\t{{offsetX}}\r\n\t\t{{offsetY}}\r\n\t\t{{width}}\r\n\t\t{{height}}\r\n\t\"\r\n\t>\r\n\t<defs>\r\n\t\t<marker id=\"Triangle\"\r\n\t\tviewBox=\"0 0 10 10\"\r\n\t\trefX=\"10\" refY=\"5\"\r\n\t\tmarkerWidth=\"6\"\r\n\t\tmarkerHeight=\"6\"\r\n\t\torient=\"auto\">\r\n\t\t<path d=\"M 0 0 L 10 5 L 0 10 z\" />\r\n\t</defs>\r\n\t<g>\r\n\t\t{{#edges}}\r\n\t\t<polyline\r\n\t\t\tmarker-end=\"url(#Triangle)\"\r\n\t\t\tpoints=\"\r\n\t\t\t\t{{#points}}\r\n\t\t\t\t\t{{x}},{{y}}\r\n\t\t\t\t{{/points}}\r\n\t\t\t\"\r\n\t\t\tstroke=\"black\"\r\n\t\t\tfill=\"none\"\r\n\t\t\tstroke-width=\"1\"\r\n\t\t/>\r\n\t\t{{/edges}}\r\n\t</g>\r\n\t<g>\r\n\t\t{{#nodes}}\r\n\t\t<g transform=\"translate(-{{rx}},-{{ry}})\">\r\n\t\t\t<rect\r\n\t\t\t\tx=\"{{x}}\"\r\n\t\t\t\ty=\"{{y}}\"\r\n\t\t\t\twidth=\"{{width}}\"\r\n\t\t\t\theight=\"{{height}}\"\r\n\t\t\t\tfill=\"none\"\r\n\t\t\t\tstroke=\"black\"\r\n\t\t\t\tstroke-width=\"1px\"\r\n\t\t\t/>\r\n\t\t</g>\r\n\t\t<text\r\n\t\t\ttext-anchor=\"middle\"\r\n\t\t\talignment-baseline=\"central\"\r\n\t\t\tx=\"{{x}}\"\r\n\t\t\ty=\"{{y}}\"\r\n\t\t\tfont-size=\"6\"\r\n\t\t>\r\n\t\t\t{{label}}\r\n\t\t</text>\r\n\t\t{{/nodes}}\r\n\t</g>\r\n</svg>\r\n"
 	},
 	computed: {
-		rendered: function() {
+		rendered: function () {
 			var data = this.$data;
 			try {
 				var graph = data.graph;
 				var template = data.template;
-				var layout = data.layout;
-				var rendered = render_graph(graph, template, layout);
+				var rendered = render_graph(graph, template);
 			} catch (e) {
 				console.error(e);
 			}
@@ -21719,10 +21717,8 @@ var vm = new Vue({
 	}
 });
 
-function render_graph(graph_source, template_source, layout_source) {
-	var layout = JSON.parse(layout_source);
+function render_graph(graph_source, template_source) {
 	var graph = dot.read(graph_source);
-	graph.setGraph(layout.graph);
 	dagre.layout(graph);
 	var data = process_graph(graph);
 	var rendered = mustache.render(template_source, data);
@@ -21740,10 +21736,10 @@ function process_graph(graph) {
 	var data = {
 		nodes: nodes,
 		edges: edges,
-		offsetX: graph_width * -0.5,
-		offsetY: graph_height * -0.5,
-		width: graph_width * 2,
-		height: graph_height * 2
+		offsetX: 0,
+		offsetY: 0,
+		width: graph_width,
+		height: graph_height
 	};
 
 	return data;
@@ -21751,12 +21747,16 @@ function process_graph(graph) {
 
 function process_node(graph, n) {
 	var node = graph.node(n);
+	node.label = n;
+	node.rx = parseInt(node.width)/2;
+	node.ry = parseInt(node.height)/2;
+	console.log("Node", n, node);
 	return node;
 }
 
 function process_edge(graph, e) {
 	var edge = graph.edge(e);
-	console.log("Edge", e, "points:", JSON.stringify(edge.points));
+	console.log("Edge", edge, "points:", JSON.stringify(edge.points));
 	return {
 		points: edge.points.map(process_point)
 	}
