@@ -13,7 +13,7 @@ var vm = new Vue({
 		layout: fs.readFileSync("./layout.json", "utf8")
 	},
 	computed: {
-		rendered: function() {
+		rendered: function () {
 			var data = this.$data;
 			try {
 				var graph = data.graph;
@@ -49,10 +49,10 @@ function process_graph(graph) {
 	var data = {
 		nodes: nodes,
 		edges: edges,
-		offsetX: graph_width * -0.5,
-		offsetY: graph_height * -0.5,
-		width: graph_width * 2,
-		height: graph_height * 2
+		offsetX: 0,
+		offsetY: 0,
+		width: graph_width,
+		height: graph_height
 	};
 
 	return data;
@@ -60,12 +60,14 @@ function process_graph(graph) {
 
 function process_node(graph, n) {
 	var node = graph.node(n);
+	node.label = n;
+	console.log("Node", n, node);
 	return node;
 }
 
 function process_edge(graph, e) {
 	var edge = graph.edge(e);
-	console.log("Edge", e, "points:", JSON.stringify(edge.points));
+	console.log("Edge", edge, "points:", JSON.stringify(edge.points));
 	return {
 		points: edge.points.map(process_point)
 	}

@@ -1,7 +1,8 @@
 {
 	"graph": {
 		"edgesep": 10,
-		"nodesep": 40,
+		"nodesep": 10,
+		"ranksep": 20,
 		"rankdir": "LR"
 	}
 }

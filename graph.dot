@@ -1,13 +1,15 @@
 digraph g {
-	node [shape=plaintext];
+	node [shape=plaintext, width=20, height=20];
+	edge [minlen=2];
+	graph [rankdir=LR]
 	A1 -> B1;
 	A2 -> B2;
 	A3 -> B3;
 
-	A1 -> A2 [label=f];
-	A2 -> A3 [label=g];
-	B2 -> B3 [label="g'"];
-	B1 -> B3 [label="(g o f)'" tailport=s headport=s];
+	A1 -> A2
+	A2 -> A3
+	B2 -> B3
+	B1 -> B3
 
 	{ rank=same; A1 A2 A3 }
 	{ rank=same; B1 B2 B3 }
