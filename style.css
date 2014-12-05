@@ -5,7 +5,7 @@ html {
 svg {
 	display: block;
 	margin: 20px auto;
-	height: 400px;
+	width: 90%px;
 }
 header {
 	display: flex;

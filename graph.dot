@@ -1,16 +1,29 @@
 digraph g {
-	node [shape=plaintext, width=20, height=20];
-	edge [minlen=2];
-	graph [rankdir=LR]
+	// This configures the graph itself
+	rankdir=LR;
+	nodesep=10;
+	ranksep=50;
+	marginx=2;
+	marginy=2;
+
+	// This is used to configure stuff to do with the nodes
+	node [width=20, height=20];
+
+	// This configures the edges
+	edge [minlen=1];
+
+	// Some nodes
 	A1 -> B1;
 	A2 -> B2;
 	A3 -> B3;
 
-	A1 -> A2
-	A2 -> A3
-	B2 -> B3
-	B1 -> B3
+	// Ditto
+	A1 -> A2;
+	A2 -> A3;
+	B2 -> B3;
+	B1 -> B3;
 
+	// Not sure if this does anything....
 	{ rank=same; A1 A2 A3 }
 	{ rank=same; B1 B2 B3 }
 }

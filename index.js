@@ -9,8 +9,7 @@ var vm = new Vue({
 	el: "body",
 	data: {
 		graph: fs.readFileSync("./graph.dot", "utf8"),
-		template: fs.readFileSync("./template.html", "utf8"),
-		layout: fs.readFileSync("./layout.json", "utf8")
+		template: fs.readFileSync("./template.html", "utf8")
 	},
 	computed: {
 		rendered: function () {
@@ -18,8 +17,7 @@ var vm = new Vue({
 			try {
 				var graph = data.graph;
 				var template = data.template;
-				var layout = data.layout;
-				var rendered = render_graph(graph, template, layout);
+				var rendered = render_graph(graph, template);
 			} catch (e) {
 				console.error(e);
 			}
@@ -28,10 +26,8 @@ var vm = new Vue({
 	}
 });
 
-function render_graph(graph_source, template_source, layout_source) {
-	var layout = JSON.parse(layout_source);
+function render_graph(graph_source, template_source) {
 	var graph = dot.read(graph_source);
-	graph.setGraph(layout.graph);
 	dagre.layout(graph);
 	var data = process_graph(graph);
 	var rendered = mustache.render(template_source, data);
@@ -61,6 +57,8 @@ function process_graph(graph) {
 function process_node(graph, n) {
 	var node = graph.node(n);
 	node.label = n;
+	node.rx = parseInt(node.width)/2;
+	node.ry = parseInt(node.height)/2;
 	console.log("Node", n, node);
 	return node;
 }

@@ -9,7 +9,7 @@
 	<defs>
 		<marker id="Triangle"
 		viewBox="0 0 10 10"
-		refX="8" refY="5"
+		refX="10" refY="5"
 		markerWidth="6"
 		markerHeight="6"
 		orient="auto">
@@ -32,14 +32,17 @@
 	</g>
 	<g>
 		{{#nodes}}
-		<circle
-			cx="{{x}}"
-			cy="{{y}}"
-			r="8"
-			fill="none"
-			stroke="black"
-			stroke-width="1"
-		/>
+		<g transform="translate(-{{rx}},-{{ry}})">
+			<rect
+				x="{{x}}"
+				y="{{y}}"
+				width="{{width}}"
+				height="{{height}}"
+				fill="none"
+				stroke="black"
+				stroke-width="1px"
+			/>
+		</g>
 		<text
 			text-anchor="middle"
 			alignment-baseline="central"
