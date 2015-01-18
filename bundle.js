@@ -4031,7 +4031,7 @@ function read(json) {
 
 },{"./graph":46,"./lodash":49}],49:[function(require,module,exports){
 module.exports=require(10)
-},{"c:\\Users\\Georgiy\\graphtest\\node_modules\\dagre\\lib\\lodash.js":10,"lodash":51}],50:[function(require,module,exports){
+},{"c:\\Users\\Georgiy\\programming\\graphtest\\node_modules\\dagre\\lib\\lodash.js":10,"lodash":51}],50:[function(require,module,exports){
 module.exports = '1.0.1';
 
 },{}],51:[function(require,module,exports){
@@ -13370,9 +13370,9 @@ module.exports = (function() {
 
 },{"./lodash":56}],55:[function(require,module,exports){
 module.exports=require(7)
-},{"c:\\Users\\Georgiy\\graphtest\\node_modules\\dagre\\lib\\graphlib.js":7,"graphlib":61}],56:[function(require,module,exports){
+},{"c:\\Users\\Georgiy\\programming\\graphtest\\node_modules\\dagre\\lib\\graphlib.js":7,"graphlib":61}],56:[function(require,module,exports){
 module.exports=require(10)
-},{"c:\\Users\\Georgiy\\graphtest\\node_modules\\dagre\\lib\\lodash.js":10,"lodash":81}],57:[function(require,module,exports){
+},{"c:\\Users\\Georgiy\\programming\\graphtest\\node_modules\\dagre\\lib\\lodash.js":10,"lodash":81}],57:[function(require,module,exports){
 var _ = require("./lodash"),
     grammar = require("./dot-grammar"),
     buildGraph = require("./build-graph");
@@ -13526,47 +13526,47 @@ Writer.prototype.toString = function() {
 
 },{"./lodash":56}],61:[function(require,module,exports){
 module.exports=require(31)
-},{"./lib":77,"./lib/alg":68,"./lib/json":78,"c:\\Users\\Georgiy\\graphtest\\node_modules\\dagre\\node_modules\\graphlib\\index.js":31}],62:[function(require,module,exports){
+},{"./lib":77,"./lib/alg":68,"./lib/json":78,"c:\\Users\\Georgiy\\programming\\graphtest\\node_modules\\dagre\\node_modules\\graphlib\\index.js":31}],62:[function(require,module,exports){
 module.exports=require(32)
-},{"../lodash":79,"c:\\Users\\Georgiy\\graphtest\\node_modules\\dagre\\node_modules\\graphlib\\lib\\alg\\components.js":32}],63:[function(require,module,exports){
+},{"../lodash":79,"c:\\Users\\Georgiy\\programming\\graphtest\\node_modules\\dagre\\node_modules\\graphlib\\lib\\alg\\components.js":32}],63:[function(require,module,exports){
 module.exports=require(33)
-},{"../lodash":79,"c:\\Users\\Georgiy\\graphtest\\node_modules\\dagre\\node_modules\\graphlib\\lib\\alg\\dfs.js":33}],64:[function(require,module,exports){
+},{"../lodash":79,"c:\\Users\\Georgiy\\programming\\graphtest\\node_modules\\dagre\\node_modules\\graphlib\\lib\\alg\\dfs.js":33}],64:[function(require,module,exports){
 module.exports=require(34)
-},{"../lodash":79,"./dijkstra":65,"c:\\Users\\Georgiy\\graphtest\\node_modules\\dagre\\node_modules\\graphlib\\lib\\alg\\dijkstra-all.js":34}],65:[function(require,module,exports){
+},{"../lodash":79,"./dijkstra":65,"c:\\Users\\Georgiy\\programming\\graphtest\\node_modules\\dagre\\node_modules\\graphlib\\lib\\alg\\dijkstra-all.js":34}],65:[function(require,module,exports){
 module.exports=require(35)
-},{"../data/priority-queue":75,"../lodash":79,"c:\\Users\\Georgiy\\graphtest\\node_modules\\dagre\\node_modules\\graphlib\\lib\\alg\\dijkstra.js":35}],66:[function(require,module,exports){
+},{"../data/priority-queue":75,"../lodash":79,"c:\\Users\\Georgiy\\programming\\graphtest\\node_modules\\dagre\\node_modules\\graphlib\\lib\\alg\\dijkstra.js":35}],66:[function(require,module,exports){
 module.exports=require(36)
-},{"../lodash":79,"./tarjan":73,"c:\\Users\\Georgiy\\graphtest\\node_modules\\dagre\\node_modules\\graphlib\\lib\\alg\\find-cycles.js":36}],67:[function(require,module,exports){
+},{"../lodash":79,"./tarjan":73,"c:\\Users\\Georgiy\\programming\\graphtest\\node_modules\\dagre\\node_modules\\graphlib\\lib\\alg\\find-cycles.js":36}],67:[function(require,module,exports){
 module.exports=require(37)
-},{"../lodash":79,"c:\\Users\\Georgiy\\graphtest\\node_modules\\dagre\\node_modules\\graphlib\\lib\\alg\\floyd-warshall.js":37}],68:[function(require,module,exports){
+},{"../lodash":79,"c:\\Users\\Georgiy\\programming\\graphtest\\node_modules\\dagre\\node_modules\\graphlib\\lib\\alg\\floyd-warshall.js":37}],68:[function(require,module,exports){
 module.exports=require(38)
-},{"./components":62,"./dijkstra":65,"./dijkstra-all":64,"./find-cycles":66,"./floyd-warshall":67,"./is-acyclic":69,"./postorder":70,"./preorder":71,"./prim":72,"./tarjan":73,"./topsort":74,"c:\\Users\\Georgiy\\graphtest\\node_modules\\dagre\\node_modules\\graphlib\\lib\\alg\\index.js":38}],69:[function(require,module,exports){
+},{"./components":62,"./dijkstra":65,"./dijkstra-all":64,"./find-cycles":66,"./floyd-warshall":67,"./is-acyclic":69,"./postorder":70,"./preorder":71,"./prim":72,"./tarjan":73,"./topsort":74,"c:\\Users\\Georgiy\\programming\\graphtest\\node_modules\\dagre\\node_modules\\graphlib\\lib\\alg\\index.js":38}],69:[function(require,module,exports){
 module.exports=require(39)
-},{"./topsort":74,"c:\\Users\\Georgiy\\graphtest\\node_modules\\dagre\\node_modules\\graphlib\\lib\\alg\\is-acyclic.js":39}],70:[function(require,module,exports){
+},{"./topsort":74,"c:\\Users\\Georgiy\\programming\\graphtest\\node_modules\\dagre\\node_modules\\graphlib\\lib\\alg\\is-acyclic.js":39}],70:[function(require,module,exports){
 module.exports=require(40)
-},{"./dfs":63,"c:\\Users\\Georgiy\\graphtest\\node_modules\\dagre\\node_modules\\graphlib\\lib\\alg\\postorder.js":40}],71:[function(require,module,exports){
+},{"./dfs":63,"c:\\Users\\Georgiy\\programming\\graphtest\\node_modules\\dagre\\node_modules\\graphlib\\lib\\alg\\postorder.js":40}],71:[function(require,module,exports){
 module.exports=require(41)
-},{"./dfs":63,"c:\\Users\\Georgiy\\graphtest\\node_modules\\dagre\\node_modules\\graphlib\\lib\\alg\\preorder.js":41}],72:[function(require,module,exports){
+},{"./dfs":63,"c:\\Users\\Georgiy\\programming\\graphtest\\node_modules\\dagre\\node_modules\\graphlib\\lib\\alg\\preorder.js":41}],72:[function(require,module,exports){
 module.exports=require(42)
-},{"../data/priority-queue":75,"../graph":76,"../lodash":79,"c:\\Users\\Georgiy\\graphtest\\node_modules\\dagre\\node_modules\\graphlib\\lib\\alg\\prim.js":42}],73:[function(require,module,exports){
+},{"../data/priority-queue":75,"../graph":76,"../lodash":79,"c:\\Users\\Georgiy\\programming\\graphtest\\node_modules\\dagre\\node_modules\\graphlib\\lib\\alg\\prim.js":42}],73:[function(require,module,exports){
 module.exports=require(43)
-},{"../lodash":79,"c:\\Users\\Georgiy\\graphtest\\node_modules\\dagre\\node_modules\\graphlib\\lib\\alg\\tarjan.js":43}],74:[function(require,module,exports){
+},{"../lodash":79,"c:\\Users\\Georgiy\\programming\\graphtest\\node_modules\\dagre\\node_modules\\graphlib\\lib\\alg\\tarjan.js":43}],74:[function(require,module,exports){
 module.exports=require(44)
-},{"../lodash":79,"c:\\Users\\Georgiy\\graphtest\\node_modules\\dagre\\node_modules\\graphlib\\lib\\alg\\topsort.js":44}],75:[function(require,module,exports){
+},{"../lodash":79,"c:\\Users\\Georgiy\\programming\\graphtest\\node_modules\\dagre\\node_modules\\graphlib\\lib\\alg\\topsort.js":44}],75:[function(require,module,exports){
 module.exports=require(45)
-},{"../lodash":79,"c:\\Users\\Georgiy\\graphtest\\node_modules\\dagre\\node_modules\\graphlib\\lib\\data\\priority-queue.js":45}],76:[function(require,module,exports){
+},{"../lodash":79,"c:\\Users\\Georgiy\\programming\\graphtest\\node_modules\\dagre\\node_modules\\graphlib\\lib\\data\\priority-queue.js":45}],76:[function(require,module,exports){
 module.exports=require(46)
-},{"./lodash":79,"c:\\Users\\Georgiy\\graphtest\\node_modules\\dagre\\node_modules\\graphlib\\lib\\graph.js":46}],77:[function(require,module,exports){
+},{"./lodash":79,"c:\\Users\\Georgiy\\programming\\graphtest\\node_modules\\dagre\\node_modules\\graphlib\\lib\\graph.js":46}],77:[function(require,module,exports){
 module.exports=require(47)
-},{"./graph":76,"./version":80,"c:\\Users\\Georgiy\\graphtest\\node_modules\\dagre\\node_modules\\graphlib\\lib\\index.js":47}],78:[function(require,module,exports){
+},{"./graph":76,"./version":80,"c:\\Users\\Georgiy\\programming\\graphtest\\node_modules\\dagre\\node_modules\\graphlib\\lib\\index.js":47}],78:[function(require,module,exports){
 module.exports=require(48)
-},{"./graph":76,"./lodash":79,"c:\\Users\\Georgiy\\graphtest\\node_modules\\dagre\\node_modules\\graphlib\\lib\\json.js":48}],79:[function(require,module,exports){
+},{"./graph":76,"./lodash":79,"c:\\Users\\Georgiy\\programming\\graphtest\\node_modules\\dagre\\node_modules\\graphlib\\lib\\json.js":48}],79:[function(require,module,exports){
 module.exports=require(10)
-},{"c:\\Users\\Georgiy\\graphtest\\node_modules\\dagre\\lib\\lodash.js":10,"lodash":81}],80:[function(require,module,exports){
+},{"c:\\Users\\Georgiy\\programming\\graphtest\\node_modules\\dagre\\lib\\lodash.js":10,"lodash":81}],80:[function(require,module,exports){
 module.exports=require(50)
-},{"c:\\Users\\Georgiy\\graphtest\\node_modules\\dagre\\node_modules\\graphlib\\lib\\version.js":50}],81:[function(require,module,exports){
+},{"c:\\Users\\Georgiy\\programming\\graphtest\\node_modules\\dagre\\node_modules\\graphlib\\lib\\version.js":50}],81:[function(require,module,exports){
 module.exports=require(51)
-},{"c:\\Users\\Georgiy\\graphtest\\node_modules\\dagre\\node_modules\\lodash\\dist\\lodash.js":51}],82:[function(require,module,exports){
+},{"c:\\Users\\Georgiy\\programming\\graphtest\\node_modules\\dagre\\node_modules\\lodash\\dist\\lodash.js":51}],82:[function(require,module,exports){
 /*!
  * mustache.js - Logic-less {{mustache}} templates with JavaScript
  * http://github.com/janl/mustache.js
@@ -14221,7 +14221,7 @@ exports.$addChild = function (opts, BaseCtor) {
   this._children.push(child)
   return child
 }
-},{"../util":140}],85:[function(require,module,exports){
+},{"../util":141}],85:[function(require,module,exports){
 var _ = require('../util')
 var Watcher = require('../watcher')
 var Path = require('../parsers/path')
@@ -14301,7 +14301,10 @@ exports.$watch = function (exp, cb, deep, immediate) {
   }
   if (!watcher) {
     watcher = vm._userWatchers[key] =
-      new Watcher(vm, exp, wrappedCb, null, false, deep)
+      new Watcher(vm, exp, wrappedCb, {
+        deep: deep,
+        user: true
+      })
   } else {
     watcher.addCb(wrappedCb)
   }
@@ -14383,7 +14386,7 @@ exports.$log = function (path) {
   }
   console.log(data)
 }
-},{"../parsers/directive":128,"../parsers/expression":129,"../parsers/path":130,"../parsers/text":132,"../util":140,"../watcher":144}],86:[function(require,module,exports){
+},{"../parsers/directive":129,"../parsers/expression":130,"../parsers/path":131,"../parsers/text":133,"../util":141,"../watcher":145}],86:[function(require,module,exports){
 var _ = require('../util')
 var transition = require('../transition')
 
@@ -14595,7 +14598,7 @@ function remove (el, vm, cb) {
   _.remove(el)
   if (cb) cb()
 }
-},{"../transition":134,"../util":140}],87:[function(require,module,exports){
+},{"../transition":135,"../util":141}],87:[function(require,module,exports){
 var _ = require('../util')
 
 /**
@@ -14772,7 +14775,7 @@ function modifyListenerCount (vm, event, count) {
     parent = parent.$parent
   }
 }
-},{"../util":140}],88:[function(require,module,exports){
+},{"../util":141}],88:[function(require,module,exports){
 var _ = require('../util')
 var mergeOptions = require('../util/merge-option')
 
@@ -14919,7 +14922,7 @@ function createAssetRegisters (Constructor) {
 }
 
 createAssetRegisters(exports)
-},{"../compiler/compile":92,"../compiler/transclude":93,"../config":94,"../parsers/directive":128,"../parsers/expression":129,"../parsers/path":130,"../parsers/template":131,"../parsers/text":132,"../util":140,"../util/merge-option":142}],89:[function(require,module,exports){
+},{"../compiler/compile":92,"../compiler/transclude":93,"../config":94,"../parsers/directive":129,"../parsers/expression":130,"../parsers/path":131,"../parsers/template":132,"../parsers/text":133,"../util":141,"../util/merge-option":143}],89:[function(require,module,exports){
 var _ = require('../util')
 var compile = require('../compiler/compile')
 
@@ -14973,84 +14976,12 @@ function ready () {
 }
 
 /**
- * Teardown an instance, unobserves the data, unbind all the
- * directives, turn off all the event listeners, etc.
- *
- * @param {Boolean} remove - whether to remove the DOM node.
- * @param {Boolean} deferCleanup - if true, defer cleanup to
- *                                 be called later
- * @public
+ * Teardown the instance, simply delegate to the internal
+ * _destroy.
  */
 
 exports.$destroy = function (remove, deferCleanup) {
-  if (this._isBeingDestroyed) {
-    return
-  }
-  this._callHook('beforeDestroy')
-  this._isBeingDestroyed = true
-  var i
-  // remove self from parent. only necessary
-  // if parent is not being destroyed as well.
-  var parent = this.$parent
-  if (parent && !parent._isBeingDestroyed) {
-    i = parent._children.indexOf(this)
-    parent._children.splice(i, 1)
-  }
-  // destroy all children.
-  if (this._children) {
-    i = this._children.length
-    while (i--) {
-      this._children[i].$destroy()
-    }
-  }
-  // teardown all directives. this also tearsdown all
-  // directive-owned watchers.
-  i = this._directives.length
-  while (i--) {
-    this._directives[i]._teardown()
-  }
-  // teardown all user watchers.
-  for (i in this._userWatchers) {
-    this._userWatchers[i].teardown()
-  }
-  // remove reference to self on $el
-  if (this.$el) {
-    this.$el.__vue__ = null
-  }
-  // remove DOM element
-  var self = this
-  if (remove && this.$el) {
-    this.$remove(function () {
-      self._cleanup()
-    })
-  } else if (!deferCleanup) {
-    this._cleanup()
-  }
-}
-
-/**
- * Clean up to ensure garbage collection.
- * This is called after the leave transition if there
- * is any.
- */
-
-exports._cleanup = function () {
-  // remove reference from data ob
-  this._data.__ob__.removeVm(this)
-  this._data =
-  this._watchers =
-  this._userWatchers =
-  this._watcherList =
-  this.$el =
-  this.$parent =
-  this.$root =
-  this._children =
-  this._directives = null
-  // call the last hook...
-  this._isDestroyed = true
-  this._callHook('destroyed')
-  // turn off all instance listeners.
-  this.$off()
+  this._destroy(remove, deferCleanup)
 }
 
 /**
@@ -15064,19 +14995,57 @@ exports._cleanup = function () {
 exports.$compile = function (el) {
   return compile(el, this.$options, true)(this, el)
 }
-},{"../compiler/compile":92,"../util":140}],90:[function(require,module,exports){
+},{"../compiler/compile":92,"../util":141}],90:[function(require,module,exports){
 var _ = require('./util')
 
+// we have two separate queues: one for directive updates
+// and one for user watcher registered via $watch().
+// we want to guarantee directive updates to be called
+// before user watchers so that when user watchers are
+// triggered, the DOM would have already been in updated
+// state.
+var queue = []
+var userQueue = []
+var has = {}
+var waiting = false
+var flushing = false
+
 /**
- * The Batcher maintains a job queue to be run
- * async on the next event loop.
+ * Reset the batcher's state.
  */
 
-function Batcher () {
-  this.reset()
+function reset () {
+  queue = []
+  userQueue = []
+  has = {}
+  waiting = false
+  flushing = false
 }
 
-var p = Batcher.prototype
+/**
+ * Flush both queues and run the jobs.
+ */
+
+function flush () {
+  flushing = true
+  run(queue)
+  run(userQueue)
+  reset()
+}
+
+/**
+ * Run the jobs in a single queue.
+ *
+ * @param {Array} queue
+ */
+
+function run (queue) {
+  // do not cache length because more jobs might be pushed
+  // as we run existing jobs
+  for (var i = 0; i < queue.length; i++) {
+    queue[i].run()
+  }
+}
 
 /**
  * Push a job into the job queue.
@@ -15089,48 +15058,25 @@ var p = Batcher.prototype
  *   - {Function}      run
  */
 
-p.push = function (job) {
-  if (!job.id || !this.has[job.id] || this.flushing) {
-    this.queue.push(job)
-    this.has[job.id] = job
-    if (!this.waiting) {
-      this.waiting = true
-      _.nextTick(this.flush, this)
-    }
-  }
-}
-
-/**
- * Flush the queue and run the jobs.
- * Will call a preFlush hook if has one.
- */
-
-p.flush = function () {
-  this.flushing = true
-  // do not cache length because more jobs might be pushed
-  // as we run existing jobs
-  for (var i = 0; i < this.queue.length; i++) {
-    var job = this.queue[i]
-    if (!job.cancelled) {
+exports.push = function (job) {
+  if (!job.id || !has[job.id] || flushing) {
+    // A user watcher callback could trigger another
+    // directive update during the flushing; at that time
+    // the directive queue would already have been run, so
+    // we call that update immediately as it is pushed.
+    if (flushing && !job.user) {
       job.run()
+      return
+    }
+    ;(job.user ? userQueue : queue).push(job)
+    has[job.id] = job
+    if (!waiting) {
+      waiting = true
+      _.nextTick(flush)
     }
   }
-  this.reset()
 }
-
-/**
- * Reset the batcher's state.
- */
-
-p.reset = function () {
-  this.has = {}
-  this.queue = []
-  this.waiting = false
-  this.flushing = false
-}
-
-module.exports = Batcher
-},{"./util":140}],91:[function(require,module,exports){
+},{"./util":141}],91:[function(require,module,exports){
 /**
  * A doubly linked list-based Least Recently Used (LRU)
  * cache. Will keep most recently used items while
@@ -15265,7 +15211,8 @@ var templateParser = require('../parsers/template')
  * @param {Element|DocumentFragment} el
  * @param {Object} options
  * @param {Boolean} partial
- * @param {Boolean} asParent
+ * @param {Boolean} asParent - compiling a component
+ *                             container as its parent.
  * @return {Function}
  */
 
@@ -15717,7 +15664,6 @@ function collectDirectives (el, options, asParent) {
       dirName = attrName.slice(config.prefix.length)
       if (asParent &&
           (dirName === 'with' ||
-           dirName === 'ref' ||
            dirName === 'component')) {
         continue
       }
@@ -15755,6 +15701,10 @@ function collectDirectives (el, options, asParent) {
  */
 
 function collectAttrDirective (el, name, value, options) {
+  if (options._skipAttrs &&
+      options._skipAttrs.indexOf(name) > -1) {
+    return
+  }
   var tokens = textParser.parse(value)
   if (tokens) {
     var def = options.directives.attr
@@ -15793,7 +15743,7 @@ function directiveComparator (a, b) {
   b = b.def.priority || 0
   return a > b ? 1 : -1
 }
-},{"../config":94,"../parsers/directive":128,"../parsers/template":131,"../parsers/text":132,"../util":140}],93:[function(require,module,exports){
+},{"../config":94,"../parsers/directive":129,"../parsers/template":132,"../parsers/text":133,"../util":141}],93:[function(require,module,exports){
 var _ = require('../util')
 var templateParser = require('../parsers/template')
 
@@ -15840,39 +15790,21 @@ function transcludeTemplate (el, options) {
   if (!frag) {
     _.warn('Invalid template option: ' + template)
   } else {
-    collectRawContent(el)
+    var rawContent = options._content || _.extractContent(el)
     if (options.replace) {
       if (frag.childNodes.length > 1) {
-        transcludeContent(frag)
+        transcludeContent(frag, rawContent)
         return frag
       } else {
         var replacer = frag.firstChild
         _.copyAttributes(el, replacer)
-        transcludeContent(replacer)
+        transcludeContent(replacer, rawContent)
         return replacer
       }
     } else {
       el.appendChild(frag)
-      transcludeContent(el)
+      transcludeContent(el, rawContent)
       return el
-    }
-  }
-}
-
-/**
- * Collect raw content inside $el before they are
- * replaced by template content.
- */
-
-var rawContent
-function collectRawContent (el) {
-  var child
-  rawContent = null
-  if (el.hasChildNodes()) {
-    rawContent = document.createElement('div')
-    /* jshint boss:true */
-    while (child = el.firstChild) {
-      rawContent.appendChild(child)
     }
   }
 }
@@ -15884,9 +15816,10 @@ function collectRawContent (el) {
  *   http://w3c.github.io/webcomponents/spec/shadow/#insertion-points
  *
  * @param {Element|DocumentFragment} el
+ * @param {Element} raw
  */
 
-function transcludeContent (el) {
+function transcludeContent (el, raw) {
   var outlets = getOutlets(el)
   var i = outlets.length
   if (!i) return
@@ -15895,10 +15828,10 @@ function transcludeContent (el) {
   // for each outlet.
   while (i--) {
     outlet = outlets[i]
-    if (rawContent) {
+    if (raw) {
       select = outlet.getAttribute('select')
       if (select) {  // select content
-        selected = rawContent.querySelectorAll(select)
+        selected = raw.querySelectorAll(select)
         outlet.content = _.toArray(
           selected.length
             ? selected
@@ -15920,7 +15853,7 @@ function transcludeContent (el) {
   }
   // finally insert the main content
   if (main) {
-    insertContentAt(main, _.toArray(rawContent.childNodes))
+    insertContentAt(main, _.toArray(raw.childNodes))
   }
 }
 
@@ -15957,7 +15890,7 @@ function insertContentAt (outlet, contents) {
   }
   parent.removeChild(outlet)
 }
-},{"../parsers/template":131,"../util":140}],94:[function(require,module,exports){
+},{"../parsers/template":132,"../util":141}],94:[function(require,module,exports){
 module.exports = {
 
   /**
@@ -16058,11 +15991,10 @@ var expParser = require('./parsers/expression')
  *                 - {String} [arg]
  *                 - {Array<Object>} [filters]
  * @param {Object} def - directive definition object
- * @param {Function} [linker] - pre-compiled linker function
  * @constructor
  */
 
-function Directive (name, el, vm, descriptor, def, linker) {
+function Directive (name, el, vm, descriptor, def) {
   // public
   this.name = name
   this.el = el
@@ -16073,7 +16005,6 @@ function Directive (name, el, vm, descriptor, def, linker) {
   this.arg = descriptor.arg
   this.filters = _.resolveFilters(vm, descriptor.filters)
   // private
-  this._linker = linker
   this._locked = false
   this._bound = false
   // init
@@ -16109,9 +16040,6 @@ p._bind = function (def) {
     (!this.isLiteral || this._isDynamicLiteral) &&
     !this._checkStatement()
   ) {
-    // use raw expression as identifier because filters
-    // make them different watchers
-    var watcher = this.vm._watchers[this.raw]
     // wrapped updater for context
     var dir = this
     var update = this._update = function (val, oldVal) {
@@ -16119,14 +16047,22 @@ p._bind = function (def) {
         dir.update(val, oldVal)
       }
     }
-    if (!watcher) {
+    // use raw expression as identifier because filters
+    // make them different watchers
+    var watcher = this.vm._watchers[this.raw]
+    // v-repeat always creates a new watcher because it has
+    // a special filter that's bound to its directive
+    // instance.
+    if (!watcher || this.name === 'repeat') {
       watcher = this.vm._watchers[this.raw] = new Watcher(
         this.vm,
         this._watcherExp,
         update, // callback
-        this.filters,
-        this.twoWay, // need setter,
-        this.deep
+        {
+          filters: this.filters,
+          twoWay: this.twoWay,
+          deep: this.deep
+        }
       )
     } else {
       watcher.addCb(update)
@@ -16256,7 +16192,7 @@ p.set = function (value, lock) {
 }
 
 module.exports = Directive
-},{"./config":94,"./parsers/expression":129,"./parsers/text":132,"./util":140,"./watcher":144}],96:[function(require,module,exports){
+},{"./config":94,"./parsers/expression":130,"./parsers/text":133,"./util":141,"./watcher":145}],96:[function(require,module,exports){
 // xlink
 var xlinkNS = 'http://www.w3.org/1999/xlink'
 var xlinkRE = /^xlink:/
@@ -16308,7 +16244,7 @@ module.exports = function (value) {
     }
   }
 }
-},{"../util":140}],98:[function(require,module,exports){
+},{"../util":141}],98:[function(require,module,exports){
 var config = require('../config')
 
 module.exports = {
@@ -16323,7 +16259,6 @@ module.exports = {
 }
 },{"../config":94}],99:[function(require,module,exports){
 var _ = require('../util')
-var compile = require('../compiler/compile')
 var templateParser = require('../parsers/template')
 
 module.exports = {
@@ -16354,12 +16289,6 @@ module.exports = {
       if (this.keepAlive) {
         this.cache = {}
       }
-      // compile parent scope content
-      this.parentLinkFn = compile(
-        this.el, this.vm.$options,
-        true, // partial
-        true  // asParent
-      )
       // if static, build right now.
       if (!this._isDynamicLiteral) {
         this.resolveCtor(this.expression)
@@ -16407,14 +16336,10 @@ module.exports = {
     var vm = this.vm
     var el = templateParser.clone(this.el)
     if (this.Ctor) {
-      var parentUnlinkFn
-      if (this.parentLinkFn) {
-        parentUnlinkFn = this.parentLinkFn(vm, el)
-      }
       var child = vm.$addChild({
-        el: el
+        el: el,
+        _asComponent: true
       }, this.Ctor)
-      child._parentUnlinkFn = parentUnlinkFn
       if (this.keepAlive) {
         this.cache[this.ctorId] = child
       }
@@ -16431,9 +16356,6 @@ module.exports = {
     var child = this.childVM
     if (!child || this.keepAlive) {
       return
-    }
-    if (child._parentUnlinkFn) {
-      child._parentUnlinkFn()
     }
     // the sole purpose of `deferCleanup` is so that we can
     // "deactivate" the vm right now and perform DOM removal
@@ -16525,18 +16447,14 @@ module.exports = {
     // destroy all keep-alive cached instances
     if (this.cache) {
       for (var key in this.cache) {
-        var child = this.cache[key]
-        if (child._parentUnlinkFn) {
-          child._parentUnlinkFn()
-        }
-        child.$destroy()
+        this.cache[key].$destroy()
       }
       this.cache = null
     }
   }
 
 }
-},{"../compiler/compile":92,"../parsers/template":131,"../util":140}],100:[function(require,module,exports){
+},{"../parsers/template":132,"../util":141}],100:[function(require,module,exports){
 module.exports = {
 
   isLiteral: true,
@@ -16551,6 +16469,34 @@ module.exports = {
   
 }
 },{}],101:[function(require,module,exports){
+var _ = require('../util')
+
+module.exports = { 
+
+  bind: function () {
+    var child = this.el.__vue__
+    if (!child || this.vm !== child.$parent) {
+      _.warn(
+        '`v-events` should only be used on a child component ' +
+        'from the parent template.'
+      )
+      return
+    }
+    var method = this.vm[this.expression]
+    if (!method) {
+      _.warn(
+        '`v-events` cannot find method "' + this.expression +
+        '" on the parent instance.'
+      )
+    }
+    child.$on(this.arg, method)
+  }
+
+  // when child is destroyed, all events are turned off,
+  // so no need for unbind here.
+
+}
+},{"../util":141}],102:[function(require,module,exports){
 var _ = require('../util')
 var templateParser = require('../parsers/template')
 
@@ -16581,14 +16527,15 @@ module.exports = {
       _.remove(this.nodes[i])
     }
     // convert new value to a fragment
-    var frag = templateParser.parse(value, true)
+    // do not attempt to retrieve from id selector
+    var frag = templateParser.parse(value, true, true)
     // save a reference to these nodes so we can remove later
     this.nodes = _.toArray(frag.childNodes)
     _.before(frag, this.el)
   }
 
 }
-},{"../parsers/template":131,"../util":140}],102:[function(require,module,exports){
+},{"../parsers/template":132,"../util":141}],103:[function(require,module,exports){
 var _ = require('../util')
 var compile = require('../compiler/compile')
 var templateParser = require('../parsers/template')
@@ -16676,7 +16623,7 @@ module.exports = {
   }
 
 }
-},{"../compiler/compile":92,"../parsers/template":131,"../transition":134,"../util":140}],103:[function(require,module,exports){
+},{"../compiler/compile":92,"../parsers/template":132,"../transition":135,"../util":141}],104:[function(require,module,exports){
 // manipulation directives
 exports.text       = require('./text')
 exports.html       = require('./html')
@@ -16698,8 +16645,11 @@ exports.model      = require('./model')
 exports.component  = require('./component')
 exports.repeat     = require('./repeat')
 exports['if']      = require('./if')
+
+// child vm communication directives
 exports['with']    = require('./with')
-},{"./attr":96,"./class":97,"./cloak":98,"./component":99,"./el":100,"./html":101,"./if":102,"./model":106,"./on":109,"./partial":110,"./ref":111,"./repeat":112,"./show":113,"./style":114,"./text":115,"./transition":116,"./with":117}],104:[function(require,module,exports){
+exports.events     = require('./events')
+},{"./attr":96,"./class":97,"./cloak":98,"./component":99,"./el":100,"./events":101,"./html":102,"./if":103,"./model":107,"./on":110,"./partial":111,"./ref":112,"./repeat":113,"./show":114,"./style":115,"./text":116,"./transition":117,"./with":118}],105:[function(require,module,exports){
 var _ = require('../../util')
 
 module.exports = {
@@ -16725,7 +16675,7 @@ module.exports = {
   }
 
 }
-},{"../../util":140}],105:[function(require,module,exports){
+},{"../../util":141}],106:[function(require,module,exports){
 var _ = require('../../util')
 
 module.exports = {
@@ -16849,7 +16799,7 @@ module.exports = {
   }
 
 }
-},{"../../util":140}],106:[function(require,module,exports){
+},{"../../util":141}],107:[function(require,module,exports){
 var _ = require('../../util')
 
 var handlers = {
@@ -16906,7 +16856,7 @@ module.exports = {
   }
 
 }
-},{"../../util":140,"./checkbox":104,"./default":105,"./radio":107,"./select":108}],107:[function(require,module,exports){
+},{"../../util":141,"./checkbox":105,"./default":106,"./radio":108,"./select":109}],108:[function(require,module,exports){
 var _ = require('../../util')
 
 module.exports = {
@@ -16933,7 +16883,7 @@ module.exports = {
   }
 
 }
-},{"../../util":140}],108:[function(require,module,exports){
+},{"../../util":141}],109:[function(require,module,exports){
 var _ = require('../../util')
 var Watcher = require('../../watcher')
 
@@ -17005,7 +16955,8 @@ function initOptions (expression) {
   this.optionWatcher = new Watcher(
     this.vm,
     expression,
-    optionUpdateWatcher
+    optionUpdateWatcher,
+    { deep: true }
   )
   // update with initial value
   optionUpdateWatcher(this.optionWatcher.value)
@@ -17100,7 +17051,7 @@ function indexOf (arr, val) {
   }
   return -1
 }
-},{"../../util":140,"../../watcher":144}],109:[function(require,module,exports){
+},{"../../util":141,"../../watcher":145}],110:[function(require,module,exports){
 var _ = require('../util')
 
 module.exports = {
@@ -17160,7 +17111,7 @@ module.exports = {
     _.off(this.el, 'load', this.iframeBind)
   }
 }
-},{"../util":140}],110:[function(require,module,exports){
+},{"../util":141}],111:[function(require,module,exports){
 var _ = require('../util')
 var templateParser = require('../parsers/template')
 var vIf = require('./if')
@@ -17205,7 +17156,7 @@ module.exports = {
   }
 
 }
-},{"../parsers/template":131,"../util":140,"./if":102}],111:[function(require,module,exports){
+},{"../parsers/template":132,"../util":141,"./if":103}],112:[function(require,module,exports){
 var _ = require('../util')
 
 module.exports = {
@@ -17213,24 +17164,25 @@ module.exports = {
   isLiteral: true,
 
   bind: function () {
-    if (this.el !== this.vm.$el) {
+    var child = this.el.__vue__
+    if (!child || this.vm !== child.$parent) {
       _.warn(
-        'v-ref should only be used on instance root nodes.'
+        'v-ref should only be used on a child component ' +
+        'from the parent template.'
       )
       return
     }
-    this.owner = this.vm.$parent
-    this.owner.$[this.expression] = this.vm
+    this.vm.$[this.expression] = child
   },
 
   unbind: function () {
-    if (this.owner.$[this.expression] === this.vm) {
-      delete this.owner.$[this.expression]
+    if (this.vm.$[this.expression] === this.el.__vue__) {
+      delete this.vm.$[this.expression]
     }
   }
   
 }
-},{"../util":140}],112:[function(require,module,exports){
+},{"../util":141}],113:[function(require,module,exports){
 var _ = require('../util')
 var isObject = _.isObject
 var textParser = require('../parsers/text')
@@ -17251,7 +17203,8 @@ module.exports = {
     // uid as a cache identifier
     this.id = '__v_repeat_' + (++uid)
     // we need to insert the objToArray converter
-    // as the first read filter.
+    // as the first read filter, because it has to be invoked
+    // before any user filters. (can't do it in `update`)
     if (!this.filters) {
       this.filters = {}
     }
@@ -17325,22 +17278,26 @@ module.exports = {
       // important: transclude with no options, just
       // to ensure block start and block end
       this.template = transclude(this.template)
-      this._linker = compile(this.template, options)
+      this._linkFn = compile(this.template, options)
     } else {
+      this._asComponent = true
       var tokens = textParser.parse(id)
       if (!tokens) { // static component
         var Ctor = this.Ctor = options.components[id]
         _.assertAsset(Ctor, 'component', id)
-        if (Ctor) {
+        // If there's no parent scope directives and no
+        // content to be transcluded, we can optimize the
+        // rendering by pre-transcluding + compiling here
+        // and provide a link function to every instance.
+        if (!this.el.hasChildNodes() &&
+            !this.el.hasAttributes()) {
           // merge an empty object with owner vm as parent
           // so child vms can access parent assets.
-          var merged = mergeOptions(
-            Ctor.options,
-            {},
-            { $parent: this.vm }
-          )
+          var merged = mergeOptions(Ctor.options, {}, {
+            $parent: this.vm
+          })
           this.template = transclude(this.template, merged)
-          this._linker = compile(this.template, merged)
+          this._linkFn = compile(this.template, merged, false, true)
         }
       } else {
         // to be resolved later
@@ -17507,7 +17464,8 @@ module.exports = {
     var Ctor = this.Ctor || this.resolveCtor(data, meta)
     var vm = this.vm.$addChild({
       el: templateParser.clone(this.template),
-      _linker: this._linker,
+      _asComponent: this._asComponent,
+      _linkFn: this._linkFn,
       _meta: meta,
       data: data,
       inherit: this.inherit
@@ -17728,7 +17686,7 @@ function range (n) {
   }
   return ret
 }
-},{"../compiler/compile":92,"../compiler/transclude":93,"../parsers/expression":129,"../parsers/template":131,"../parsers/text":132,"../util":140,"../util/merge-option":142}],113:[function(require,module,exports){
+},{"../compiler/compile":92,"../compiler/transclude":93,"../parsers/expression":130,"../parsers/template":132,"../parsers/text":133,"../util":141,"../util/merge-option":143}],114:[function(require,module,exports){
 var transition = require('../transition')
 
 module.exports = function (value) {
@@ -17737,27 +17695,34 @@ module.exports = function (value) {
     el.style.display = value ? '' : 'none'
   }, this.vm)
 }
-},{"../transition":134}],114:[function(require,module,exports){
+},{"../transition":135}],115:[function(require,module,exports){
+var _ = require('../util')
 var prefixes = ['-webkit-', '-moz-', '-ms-']
+var camelPrefixes = ['Webkit', 'Moz', 'ms']
 var importantRE = /!important;?$/
+var camelRE = /([a-z])([A-Z])/g
+var testEl = null
+var propCache = {}
 
 module.exports = {
 
   deep: true,
 
-  bind: function () {
-    var prop = this.arg
-    if (!prop) return
-    this.prop = prop
-  },
-
   update: function (value) {
-    if (this.prop) {
-      this.setCssProperty(this.prop, value)
+    if (this.arg) {
+      this.setProp(this.arg, value)
     } else {
       if (typeof value === 'object') {
+        // cache object styles so that only changed props
+        // are actually updated.
+        if (!this.cache) this.cache = {}
         for (var prop in value) {
-          this.setCssProperty(prop, value[prop])
+          this.setProp(prop, value[prop])
+          /* jshint eqeqeq: false */
+          if (value[prop] != this.cache[prop]) {
+            this.cache[prop] = value[prop]
+            this.setProp(prop, value[prop])
+          }
         }
       } else {
         this.el.style.cssText = value
@@ -17765,38 +17730,73 @@ module.exports = {
     }
   },
 
-  setCssProperty: function (prop, value) {
-    var prefixed = false
-    if (prop.charAt(0) === '$') {
-      // properties that start with $ will be auto-prefixed
-      prop = prop.slice(1)
-      prefixed = true
-    }
+  setProp: function (prop, value) {
+    prop = normalize(prop)
+    if (!prop) return // unsupported prop
     // cast possible numbers/booleans into strings
-    if (value != null) {
-      value += ''
-    }
-    var isImportant = importantRE.test(value)
-      ? 'important'
-      : ''
-    if (isImportant) {
-      value = value.replace(importantRE, '').trim()
-    }
-    this.el.style.setProperty(prop, value, isImportant)
-    if (prefixed) {
-      var i = prefixes.length
-      while (i--) {
-        this.el.style.setProperty(
-          prefixes[i] + prop,
-          value,
-          isImportant
-        )
+    if (value != null) value += ''
+    if (value) {
+      var isImportant = importantRE.test(value)
+        ? 'important'
+        : ''
+      if (isImportant) {
+        value = value.replace(importantRE, '').trim()
       }
+      this.el.style.setProperty(prop, value, isImportant)
+    } else {
+      this.el.style.removeProperty(prop)
     }
   }
 
 }
-},{}],115:[function(require,module,exports){
+
+/**
+ * Normalize a CSS property name.
+ * - cache result
+ * - auto prefix
+ * - camelCase -> dash-case
+ *
+ * @param {String} prop
+ * @return {String}
+ */
+
+function normalize (prop) {
+  if (propCache[prop]) {
+    return propCache[prop]
+  }
+  var res = prefix(prop)
+  propCache[prop] = propCache[res] = res
+  return res
+}
+
+/**
+ * Auto detect the appropriate prefix for a CSS property.
+ * https://gist.github.com/paulirish/523692
+ *
+ * @param {String} prop
+ * @return {String}
+ */
+
+function prefix (prop) {
+  prop = prop.replace(camelRE, '$1-$2').toLowerCase()
+  var camel = _.camelize(prop)
+  var upper = camel.charAt(0).toUpperCase() + camel.slice(1)
+  if (!testEl) {
+    testEl = document.createElement('div')
+  }
+  if (camel in testEl.style) {
+    return prop
+  }
+  var i = prefixes.length
+  var prefixed
+  while (i--) {
+    prefixed = camelPrefixes[i] + upper
+    if (prefixed in testEl.style) {
+      return prefixes[i] + prop
+    }
+  }
+}
+},{"../util":141}],116:[function(require,module,exports){
 var _ = require('../util')
 
 module.exports = {
@@ -17812,7 +17812,7 @@ module.exports = {
   }
   
 }
-},{"../util":140}],116:[function(require,module,exports){
+},{"../util":141}],117:[function(require,module,exports){
 module.exports = {
 
   priority: 1000,
@@ -17825,7 +17825,7 @@ module.exports = {
   }
 
 }
-},{}],117:[function(require,module,exports){
+},{}],118:[function(require,module,exports){
 var _ = require('../util')
 var Watcher = require('../watcher')
 
@@ -17873,7 +17873,7 @@ module.exports = {
   }
 
 }
-},{"../util":140,"../watcher":144}],118:[function(require,module,exports){
+},{"../util":141,"../watcher":145}],119:[function(require,module,exports){
 var _ = require('../util')
 var Path = require('../parsers/path')
 
@@ -17961,7 +17961,7 @@ function contains (val, search) {
     return val.toString().toLowerCase().indexOf(search) > -1
   }
 }
-},{"../parsers/path":130,"../util":140}],119:[function(require,module,exports){
+},{"../parsers/path":131,"../util":141}],120:[function(require,module,exports){
 var _ = require('../util')
 
 /**
@@ -18097,7 +18097,7 @@ exports.key.keyCodes = keyCodes
  */
 
 _.extend(exports, require('./array-filters'))
-},{"../util":140,"./array-filters":118}],120:[function(require,module,exports){
+},{"../util":141,"./array-filters":119}],121:[function(require,module,exports){
 var _ = require('../util')
 var Directive = require('../directive')
 var compile = require('../compiler/compile')
@@ -18118,15 +18118,44 @@ var transclude = require('../compiler/transclude')
 
 exports._compile = function (el) {
   var options = this.$options
-  if (options._linker) {
+  var parent = options._parent
+  if (options._linkFn) {
     this._initElement(el)
-    options._linker(this, el)
+    options._linkFn(this, el)
   } else {
     var raw = el
-    el = transclude(el, options)
-    this._initElement(el)
-    var linker = compile(el, options)
-    linker(this, el)
+    if (options._asComponent) {
+      // separate container element and content
+      var content = options._content = _.extractContent(raw)
+      // create two separate linekrs for container and content
+      var parentOptions = parent.$options
+      
+      // hack: we need to skip the paramAttributes for this
+      // child instance when compiling its parent container
+      // linker. there could be a better way to do this.
+      parentOptions._skipAttrs = options.paramAttributes
+      var containerLinkFn =
+        compile(raw, parentOptions, true, true)
+      parentOptions._skipAttrs = null
+
+      if (content) {
+        var contentLinkFn =
+          compile(content, parentOptions, true)
+        // call content linker now, before transclusion
+        this._contentUnlinkFn = contentLinkFn(parent, content)
+      }
+      // tranclude, this possibly replaces original
+      el = transclude(el, options)
+      this._initElement(el)
+      // now call the container linker on the resolved el
+      this._containerUnlinkFn = containerLinkFn(parent, el)
+    } else {
+      // simply transclude
+      el = transclude(el, options)
+      this._initElement(el)
+    }
+    var linkFn = compile(el, options)
+    linkFn(this, el)
     if (options.replace) {
       _.replace(raw, el)
     }
@@ -18161,15 +18190,102 @@ exports._initElement = function (el) {
  * @param {Node} node   - target node
  * @param {Object} desc - parsed directive descriptor
  * @param {Object} def  - directive definition object
- * @param {Function} [linker] - pre-compiled linker fn
  */
 
-exports._bindDir = function (name, node, desc, def, linker) {
+exports._bindDir = function (name, node, desc, def) {
   this._directives.push(
-    new Directive(name, node, this, desc, def, linker)
+    new Directive(name, node, this, desc, def)
   )
 }
-},{"../compiler/compile":92,"../compiler/transclude":93,"../directive":95,"../util":140}],121:[function(require,module,exports){
+
+/**
+ * Teardown an instance, unobserves the data, unbind all the
+ * directives, turn off all the event listeners, etc.
+ *
+ * @param {Boolean} remove - whether to remove the DOM node.
+ * @param {Boolean} deferCleanup - if true, defer cleanup to
+ *                                 be called later
+ */
+
+exports._destroy = function (remove, deferCleanup) {
+  if (this._isBeingDestroyed) {
+    return
+  }
+  this._callHook('beforeDestroy')
+  this._isBeingDestroyed = true
+  var i
+  // remove self from parent. only necessary
+  // if parent is not being destroyed as well.
+  var parent = this.$parent
+  if (parent && !parent._isBeingDestroyed) {
+    i = parent._children.indexOf(this)
+    parent._children.splice(i, 1)
+  }
+  // destroy all children.
+  if (this._children) {
+    i = this._children.length
+    while (i--) {
+      this._children[i].$destroy()
+    }
+  }
+  // teardown parent linkers
+  if (this._containerUnlinkFn) {
+    this._containerUnlinkFn()
+  }
+  if (this._contentUnlinkFn) {
+    this._contentUnlinkFn()
+  }
+  // teardown all directives. this also tearsdown all
+  // directive-owned watchers. intentionally check for
+  // directives array length on every loop since directives
+  // that manages partial compilation can splice ones out
+  for (i = 0; i < this._directives.length; i++) {
+    this._directives[i]._teardown()
+  }
+  // teardown all user watchers.
+  for (i in this._userWatchers) {
+    this._userWatchers[i].teardown()
+  }
+  // remove reference to self on $el
+  if (this.$el) {
+    this.$el.__vue__ = null
+  }
+  // remove DOM element
+  var self = this
+  if (remove && this.$el) {
+    this.$remove(function () {
+      self._cleanup()
+    })
+  } else if (!deferCleanup) {
+    this._cleanup()
+  }
+}
+
+/**
+ * Clean up to ensure garbage collection.
+ * This is called after the leave transition if there
+ * is any.
+ */
+
+exports._cleanup = function () {
+  // remove reference from data ob
+  this._data.__ob__.removeVm(this)
+  this._data =
+  this._watchers =
+  this._userWatchers =
+  this._watcherList =
+  this.$el =
+  this.$parent =
+  this.$root =
+  this._children =
+  this._directives = null
+  // call the last hook...
+  this._isDestroyed = true
+  this._callHook('destroyed')
+  // turn off all instance listeners.
+  this.$off()
+}
+},{"../compiler/compile":92,"../compiler/transclude":93,"../directive":95,"../util":141}],122:[function(require,module,exports){
 var _ = require('../util')
 var inDoc = _.inDoc
 
@@ -18292,7 +18408,7 @@ exports._callHook = function (hook) {
   }
   this.$emit('hook:' + hook)
 }
-},{"../util":140}],122:[function(require,module,exports){
+},{"../util":141}],123:[function(require,module,exports){
 var mergeOptions = require('../util/merge-option')
 
 /**
@@ -18369,7 +18485,7 @@ exports._init = function (options) {
     this.$mount(options.el)
   }
 }
-},{"../util/merge-option":142}],123:[function(require,module,exports){
+},{"../util/merge-option":143}],124:[function(require,module,exports){
 var _ = require('../util')
 var Observer = require('../observer')
 var Dep = require('../observer/dep')
@@ -18587,7 +18703,7 @@ exports._defineMeta = function (key, value) {
     }
   })
 }
-},{"../observer":126,"../observer/dep":125,"../util":140}],124:[function(require,module,exports){
+},{"../observer":127,"../observer/dep":126,"../util":141}],125:[function(require,module,exports){
 var _ = require('../util')
 var arrayProto = Array.prototype
 var arrayMethods = Object.create(arrayProto)
@@ -18678,7 +18794,7 @@ _.define(
 )
 
 module.exports = arrayMethods
-},{"../util":140}],125:[function(require,module,exports){
+},{"../util":141}],126:[function(require,module,exports){
 var uid = 0
 
 /**
@@ -18729,7 +18845,7 @@ p.notify = function () {
 }
 
 module.exports = Dep
-},{}],126:[function(require,module,exports){
+},{}],127:[function(require,module,exports){
 var _ = require('../util')
 var config = require('../config')
 var Dep = require('./dep')
@@ -18966,7 +19082,7 @@ p.removeVm = function (vm) {
 
 module.exports = Observer
 
-},{"../config":94,"../util":140,"./array":124,"./dep":125,"./object":127}],127:[function(require,module,exports){
+},{"../config":94,"../util":141,"./array":125,"./dep":126,"./object":128}],128:[function(require,module,exports){
 var _ = require('../util')
 var objProto = Object.prototype
 
@@ -18983,16 +19099,12 @@ _.define(
   objProto,
   '$add',
   function $add (key, val) {
+    if (this.hasOwnProperty(key)) return
     var ob = this.__ob__
-    if (!ob) {
+    if (!ob || _.isReserved(key)) {
       this[key] = val
       return
     }
-    if (_.isReserved(key)) {
-      _.warn('Refused to $add reserved key: ' + key)
-      return
-    }
-    if (this.hasOwnProperty(key)) return
     ob.convert(key, val)
     if (ob.vms) {
       var i = ob.vms.length
@@ -19019,17 +19131,12 @@ _.define(
   objProto,
   '$delete',
   function $delete (key) {
-    var ob = this.__ob__
-    if (!ob) {
-      delete this[key]
-      return
-    }
-    if (_.isReserved(key)) {
-      _.warn('Refused to $add reserved key: ' + key)
-      return
-    }
     if (!this.hasOwnProperty(key)) return
     delete this[key]
+    var ob = this.__ob__
+    if (!ob || _.isReserved(key)) {
+      return
+    }
     if (ob.vms) {
       var i = ob.vms.length
       while (i--) {
@@ -19042,7 +19149,7 @@ _.define(
     }
   }
 )
-},{"../util":140}],128:[function(require,module,exports){
+},{"../util":141}],129:[function(require,module,exports){
 var _ = require('../util')
 var Cache = require('../cache')
 var cache = new Cache(1000)
@@ -19202,7 +19309,7 @@ exports.parse = function (s) {
   cache.put(s, dirs)
   return dirs
 }
-},{"../cache":91,"../util":140}],129:[function(require,module,exports){
+},{"../cache":91,"../util":141}],130:[function(require,module,exports){
 var _ = require('../util')
 var Path = require('./path')
 var Cache = require('../cache')
@@ -19429,7 +19536,7 @@ exports.parse = function (exp, needSet) {
 
 // Export the pathRegex for external use
 exports.pathTestRE = pathTestRE
-},{"../cache":91,"../util":140,"./path":130}],130:[function(require,module,exports){
+},{"../cache":91,"../util":141,"./path":131}],131:[function(require,module,exports){
 var _ = require('../util')
 var Cache = require('../cache')
 var pathCache = new Cache(1000)
@@ -19730,10 +19837,11 @@ exports.set = function (obj, path, val) {
   }
   return true
 }
-},{"../cache":91,"../util":140}],131:[function(require,module,exports){
+},{"../cache":91,"../util":141}],132:[function(require,module,exports){
 var _ = require('../util')
 var Cache = require('../cache')
-var templateCache = new Cache(100)
+var templateCache = new Cache(1000)
+var idSelectorCache = new Cache(1000)
 
 var map = {
   _default : [0, '', ''],
@@ -19788,7 +19896,8 @@ map.rect = [
   '</svg>'
 ]
 
-var TAG_RE = /<([\w:]+)/
+var tagRE = /<([\w:]+)/
+var entityRE = /&\w+;/
 
 /**
  * Convert a string template to a DocumentFragment.
@@ -19807,16 +19916,17 @@ function stringToFragment (templateString) {
   }
 
   var frag = document.createDocumentFragment()
-  var tagMatch = TAG_RE.exec(templateString)
+  var tagMatch = templateString.match(tagRE)
+  var entityMatch = entityRE.test(templateString)
 
-  if (!tagMatch) {
+  if (!tagMatch && !entityMatch) {
     // text only, return a single text node.
     frag.appendChild(
       document.createTextNode(templateString)
     )
   } else {
 
-    var tag    = tagMatch[1]
+    var tag    = tagMatch && tagMatch[1]
     var wrap   = map[tag] || map._default
     var depth  = wrap[0]
     var prefix = wrap[1]
@@ -19937,10 +20047,11 @@ exports.clone = function (node) {
  *    - id selector: '#some-template-id'
  *    - template string: '<div><span>{{msg}}</span></div>'
  * @param {Boolean} clone
+ * @param {Boolean} noSelector
  * @return {DocumentFragment|undefined}
  */
 
-exports.parse = function (template, clone) {
+exports.parse = function (template, clone, noSelector) {
   var node, frag
 
   // if the template is already a document fragment,
@@ -19953,15 +20064,15 @@ exports.parse = function (template, clone) {
 
   if (typeof template === 'string') {
     // id selector
-    if (template.charAt(0) === '#') {
+    if (!noSelector && template.charAt(0) === '#') {
       // id selector can be cached too
-      frag = templateCache.get(template)
+      frag = idSelectorCache.get(template)
       if (!frag) {
         node = document.getElementById(template.slice(1))
         if (node) {
           frag = nodeToFragment(node)
           // save selector to cache
-          templateCache.put(template, frag)
+          idSelectorCache.put(template, frag)
         }
       }
     } else {
@@ -19977,7 +20088,7 @@ exports.parse = function (template, clone) {
     ? exports.clone(frag)
     : frag
 }
-},{"../cache":91,"../util":140}],132:[function(require,module,exports){
+},{"../cache":91,"../util":141}],133:[function(require,module,exports){
 var Cache = require('../cache')
 var config = require('../config')
 var dirParser = require('./directive')
@@ -20156,7 +20267,7 @@ function inlineFilters (exp) {
     }
   }
 }
-},{"../cache":91,"../config":94,"./directive":128}],133:[function(require,module,exports){
+},{"../cache":91,"../config":94,"./directive":129}],134:[function(require,module,exports){
 var _ = require('../util')
 var addClass = _.addClass
 var removeClass = _.removeClass
@@ -20346,7 +20457,7 @@ module.exports = function (el, direction, op, data, cb) {
     push(el, direction, op, leaveClass, cb)
   }
 }
-},{"../util":140}],134:[function(require,module,exports){
+},{"../util":141}],135:[function(require,module,exports){
 var _ = require('../util')
 var applyCSSTransition = require('./css')
 var applyJSTransition = require('./js')
@@ -20498,7 +20609,7 @@ var apply = exports.apply = function (el, direction, op, vm, cb) {
     if (cb) cb()
   }
 }
-},{"../util":140,"./css":133,"./js":135}],135:[function(require,module,exports){
+},{"../util":141,"./css":134,"./js":136}],136:[function(require,module,exports){
 /**
  * Apply JavaScript enter/leave functions.
  *
@@ -20542,7 +20653,7 @@ module.exports = function (el, direction, op, data, def, vm, cb) {
     }
   }
 }
-},{}],136:[function(require,module,exports){
+},{}],137:[function(require,module,exports){
 var config = require('../config')
 
 /**
@@ -20577,8 +20688,14 @@ function enableDebug () {
   exports.warn = function (msg) {
     if (hasConsole && !config.silent) {
       console.warn('[Vue warn]: ' + msg)
-      if (config.debug && console.trace) {
-        console.trace()
+      /* istanbul ignore if */
+      if (config.debug) {
+        /* jshint debug: true */
+        debugger
+      } else {
+        console.log(
+          'Set `Vue.config.debug = true` to enable debug mode.'
+        )
       }
     }
   }
@@ -20593,7 +20710,7 @@ function enableDebug () {
     }
   }
 }
-},{"../config":94}],137:[function(require,module,exports){
+},{"../config":94}],138:[function(require,module,exports){
 var config = require('../config')
 
 /**
@@ -20770,7 +20887,28 @@ exports.removeClass = function (el, cls) {
     el.setAttribute('class', cur.trim())
   }
 }
-},{"../config":94}],138:[function(require,module,exports){
+
+/**
+ * Extract raw content inside an element into a temporary
+ * container div
+ *
+ * @param {Element} el
+ * @return {Element}
+ */
+
+exports.extractContent = function (el) {
+  var child
+  var rawContent
+  if (el.hasChildNodes()) {
+    rawContent = document.createElement('div')
+    /* jshint boss:true */
+    while (child = el.firstChild) {
+      rawContent.appendChild(child)
+    }
+  }
+  return rawContent
+}
+},{"../config":94}],139:[function(require,module,exports){
 /**
  * Can we use __proto__?
  *
@@ -20845,7 +20983,7 @@ if (inBrowser && !exports.isIE9) {
     ? 'webkitAnimationEnd'
     : 'animationend'
 }
-},{}],139:[function(require,module,exports){
+},{}],140:[function(require,module,exports){
 var _ = require('./debug')
 
 /**
@@ -20918,7 +21056,7 @@ exports.applyFilters = function (value, filters, vm, oldVal) {
   }
   return value
 }
-},{"./debug":136}],140:[function(require,module,exports){
+},{"./debug":137}],141:[function(require,module,exports){
 var lang   = require('./lang')
 var extend = lang.extend
 
@@ -20927,7 +21065,7 @@ extend(exports, require('./env'))
 extend(exports, require('./dom'))
 extend(exports, require('./filter'))
 extend(exports, require('./debug'))
-},{"./debug":136,"./dom":137,"./env":138,"./filter":139,"./lang":141}],141:[function(require,module,exports){
+},{"./debug":137,"./dom":138,"./env":139,"./filter":140,"./lang":142}],142:[function(require,module,exports){
 /**
  * Check is a string starts with $ or _
  *
@@ -21103,7 +21241,7 @@ exports.define = function (obj, key, val, enumerable) {
     configurable : true
   })
 }
-},{}],142:[function(require,module,exports){
+},{}],143:[function(require,module,exports){
 var _ = require('./index')
 var extend = _.extend
 
@@ -21340,29 +21478,26 @@ module.exports = function mergeOptions (parent, child, vm) {
   guardComponents(child.components)
   var options = {}
   var key
+  if (child.mixins) {
+    for (var i = 0, l = child.mixins.length; i < l; i++) {
+      parent = mergeOptions(parent, child.mixins[i], vm)
+    }
+  }
   for (key in parent) {
-    merge(parent[key], child[key], key)
+    merge(key)
   }
   for (key in child) {
     if (!(parent.hasOwnProperty(key))) {
-      merge(parent[key], child[key], key)
+      merge(key)
     }
   }
-  var mixins = child.mixins
-  if (mixins) {
-    for (var i = 0, l = mixins.length; i < l; i++) {
-      for (key in mixins[i]) {
-        merge(options[key], mixins[i][key], key)
-      }
-    }
-  }
-  function merge (parentVal, childVal, key) {
+  function merge (key) {
     var strat = strats[key] || defaultStrat
-    options[key] = strat(parentVal, childVal, vm, key)
+    options[key] = strat(parent[key], child[key], vm, key)
   }
   return options
 }
-},{"./index":140}],143:[function(require,module,exports){
+},{"./index":141}],144:[function(require,module,exports){
 var _ = require('./util')
 var extend = _.extend
 
@@ -21447,14 +21582,12 @@ extend(p, require('./api/child'))
 extend(p, require('./api/lifecycle'))
 
 module.exports = _.Vue = Vue
-},{"./api/child":84,"./api/data":85,"./api/dom":86,"./api/events":87,"./api/global":88,"./api/lifecycle":89,"./directives":103,"./filters":119,"./instance/compile":120,"./instance/events":121,"./instance/init":122,"./instance/scope":123,"./util":140}],144:[function(require,module,exports){
+},{"./api/child":84,"./api/data":85,"./api/dom":86,"./api/events":87,"./api/global":88,"./api/lifecycle":89,"./directives":104,"./filters":120,"./instance/compile":121,"./instance/events":122,"./instance/init":123,"./instance/scope":124,"./util":141}],145:[function(require,module,exports){
 var _ = require('./util')
 var config = require('./config')
 var Observer = require('./observer')
 var expParser = require('./parsers/expression')
-var Batcher = require('./batcher')
-
-var batcher = new Batcher()
+var batcher = require('./batcher')
 var uid = 0
 
 /**
@@ -21465,29 +21598,35 @@ var uid = 0
  * @param {Vue} vm
  * @param {String} expression
  * @param {Function} cb
- * @param {Array} [filters]
- * @param {Boolean} [needSet]
- * @param {Boolean} [deep]
+ * @param {Object} options
+ *                 - {Array} filters
+ *                 - {Boolean} twoWay
+ *                 - {Boolean} deep
+ *                 - {Boolean} user
  * @constructor
  */
 
-function Watcher (vm, expression, cb, filters, needSet, deep) {
+function Watcher (vm, expression, cb, options) {
   this.vm = vm
   vm._watcherList.push(this)
   this.expression = expression
   this.cbs = [cb]
   this.id = ++uid // uid for batching
   this.active = true
-  this.deep = deep
+  options = options || {}
+  this.deep = options.deep
+  this.user = options.user
   this.deps = Object.create(null)
   // setup filters if any.
   // We delegate directive filters here to the watcher
   // because they need to be included in the dependency
   // collection process.
-  this.readFilters = filters && filters.read
-  this.writeFilters = filters && filters.write
+  if (options.filters) {
+    this.readFilters = options.filters.read
+    this.writeFilters = options.filters.write
+  }
   // parse expression for getter/setter
-  var res = expParser.parse(expression, needSet)
+  var res = expParser.parse(expression, options.twoWay)
   this.getter = res.get
   this.setter = res.set
   this.value = this.get()
@@ -21523,7 +21662,10 @@ p.get = function () {
   try {
     value = this.getter.call(vm, vm)
   } catch (e) {
-    _.warn(e)
+    _.warn(
+      'Error when evaluating expression "' +
+      this.expression + '":\n   ' + e
+    )
   }
   // "touch" every property so they are all tracked as
   // dependencies for deep watching
@@ -21548,7 +21690,12 @@ p.set = function (value) {
   )
   try {
     this.setter.call(vm, vm, value)
-  } catch (e) {}
+  } catch (e) {
+    _.warn(
+      'Error when evaluating setter "' +
+      this.expression + '":\n   ' + e
+    )
+  }
 }
 
 /**
@@ -21580,10 +21727,10 @@ p.afterGet = function () {
  */
 
 p.update = function () {
-  if (config.async) {
-    batcher.push(this)
-  } else {
+  if (!config.async || config.debug) {
     this.run()
+  } else {
+    batcher.push(this)
   }
 }
 
@@ -21688,7 +21835,7 @@ function traverse (obj) {
 }
 
 module.exports = Watcher
-},{"./batcher":90,"./config":94,"./observer":126,"./parsers/expression":129,"./util":140}],145:[function(require,module,exports){
+},{"./batcher":90,"./config":94,"./observer":127,"./parsers/expression":130,"./util":141}],146:[function(require,module,exports){
 
 var dot = require("graphlib-dot");
 var dagre = require("dagre");
@@ -21699,8 +21846,8 @@ var par = require("par");
 var vm = new Vue({
 	el: "body",
 	data: {
-		graph: "digraph g {\r\n\t// This configures the graph itself\r\n\trankdir=LR;\r\n\tnodesep=10;\r\n\tranksep=50;\r\n\tmarginx=2;\r\n\tmarginy=2;\r\n\r\n\t// This is used to configure stuff to do with the nodes\r\n\tnode [width=20, height=20];\r\n\r\n\t// This configures the edges\r\n\tedge [minlen=1];\r\n\r\n\t// Some nodes\r\n\tA1 -> B1;\r\n\tA2 -> B2;\r\n\tA3 -> B3;\r\n\r\n\t// Ditto\r\n\tA1 -> A2;\r\n\tA2 -> A3;\r\n\tB2 -> B3;\r\n\tB1 -> B3;\r\n\r\n\t// Not sure if this does anything....\r\n\t{ rank=same; A1 A2 A3 }\r\n\t{ rank=same; B1 B2 B3 }\r\n}\r\n",
-		template: "<svg\r\n\tviewbox=\"\r\n\t\t{{offsetX}}\r\n\t\t{{offsetY}}\r\n\t\t{{width}}\r\n\t\t{{height}}\r\n\t\"\r\n\t>\r\n\t<defs>\r\n\t\t<marker id=\"Triangle\"\r\n\t\tviewBox=\"0 0 10 10\"\r\n\t\trefX=\"10\" refY=\"5\"\r\n\t\tmarkerWidth=\"6\"\r\n\t\tmarkerHeight=\"6\"\r\n\t\torient=\"auto\">\r\n\t\t<path d=\"M 0 0 L 10 5 L 0 10 z\" />\r\n\t</defs>\r\n\t<g>\r\n\t\t{{#edges}}\r\n\t\t<polyline\r\n\t\t\tmarker-end=\"url(#Triangle)\"\r\n\t\t\tpoints=\"\r\n\t\t\t\t{{#points}}\r\n\t\t\t\t\t{{x}},{{y}}\r\n\t\t\t\t{{/points}}\r\n\t\t\t\"\r\n\t\t\tstroke=\"black\"\r\n\t\t\tfill=\"none\"\r\n\t\t\tstroke-width=\"1\"\r\n\t\t/>\r\n\t\t{{/edges}}\r\n\t</g>\r\n\t<g>\r\n\t\t{{#nodes}}\r\n\t\t<g transform=\"translate(-{{rx}},-{{ry}})\">\r\n\t\t\t<rect\r\n\t\t\t\tx=\"{{x}}\"\r\n\t\t\t\ty=\"{{y}}\"\r\n\t\t\t\twidth=\"{{width}}\"\r\n\t\t\t\theight=\"{{height}}\"\r\n\t\t\t\tfill=\"none\"\r\n\t\t\t\tstroke=\"black\"\r\n\t\t\t\tstroke-width=\"1px\"\r\n\t\t\t/>\r\n\t\t</g>\r\n\t\t<text\r\n\t\t\ttext-anchor=\"middle\"\r\n\t\t\talignment-baseline=\"central\"\r\n\t\t\tx=\"{{x}}\"\r\n\t\t\ty=\"{{y}}\"\r\n\t\t\tfont-size=\"6\"\r\n\t\t>\r\n\t\t\t{{label}}\r\n\t\t</text>\r\n\t\t{{/nodes}}\r\n\t</g>\r\n</svg>\r\n"
+		graph: "digraph g {\r\n\t// This configures the graph itself\r\n\trankdir=TD;\r\n\tnodesep=10;\r\n\tranksep=20;\r\n\tmarginx=2;\r\n\tmarginy=2;\r\n\r\n\t// This is used to configure stuff to do with the nodes\r\n\tnode [width=40, height=20];\r\n\r\n\t// This configures the edges\r\n\tedge [minlen=1];\r\n\r\n\t// Some nodes\r\n\tA1 -> B1;\r\n\tA2 -> B2;\r\n\tA3 -> B3;\r\n\r\n\t// Ditto\r\n\tA1 -> A2;\r\n\tA2 -> A3;\r\n\tB2 -> B3;\r\n\tB1 -> B3;\r\n}\r\n",
+		template: "<svg\r\n\tviewbox=\"{{offsetX}} {{offsetY}} {{width}} {{height}}\"\r\n>\r\n\t<style type=\"text/css\">\r\n\t\tpolyline {\r\n\t\t\tstroke: black;\r\n\t\t\tstroke-linejoin: bevel;\r\n\t\t\tstroke-width: 1;\r\n\t\t\tfill: none;\r\n\t\t\tmarker-end:url(#Triangle);\r\n\t\t}\r\n\t\trect {\r\n\t\t\tfill: none;\r\n\t\t\tstroke: black;\r\n\t\t}\r\n\t\ttext {\r\n\t\t\tfont-size: 6px;\r\n\t\t\ttext-anchor:middle;\r\n\t\t\talignment-baseline:central;\r\n\t\t}\r\n\t</style>\r\n\r\n\t<!-- The trianngles at the ends of the edges -->\r\n\t<defs>\r\n\t\t<marker id=\"Triangle\"\r\n\t\tviewBox=\"0 0 10 10\"\r\n\t\trefX=\"10\" refY=\"5\"\r\n\t\tmarkerWidth=\"5\"\r\n\t\tmarkerHeight=\"5\"\r\n\t\torient=\"auto\">\r\n\t\t<path d=\"M 0 0 L 10 5 L 0 10 z\" />\r\n\t</defs>\r\n\r\n\t<!-- The edges between the nodes -->\r\n\t{{#edges}}\r\n\t<polyline points=\"{{#points}}{{x}},{{y}} {{/points}}\"/>\r\n\t{{/edges}}\r\n\r\n\t<!-- The containers for the nodes -->\r\n\t{{#nodes}}\r\n\t<g transform=\"translate(-{{rx}},-{{ry}})\">\r\n\t\t<rect\r\n\t\t\tx=\"{{x}}\"\r\n\t\t\ty=\"{{y}}\"\r\n\t\t\twidth=\"{{width}}\"\r\n\t\t\theight=\"{{height}}\"\r\n\t\t/>\r\n\t</g>\r\n\t{{/nodes}}\r\n\r\n\t<!-- The labels for the nodes -->\r\n\t{{#nodes}}\r\n\t<text x=\"{{x}}\" y=\"{{y}}\">{{label}}</text>\r\n\t{{/nodes}}\r\n</svg>\r\n"
 	},
 	computed: {
 		rendered: function() {
@@ -21790,4 +21937,4 @@ function handle_tabs(e) {
 	}
 }
 
-},{"dagre":1,"graphlib-dot":52,"mustache":82,"par":83,"vue":143}]},{},[145]);
+},{"dagre":1,"graphlib-dot":52,"mustache":82,"par":83,"vue":144}]},{},[146]);
