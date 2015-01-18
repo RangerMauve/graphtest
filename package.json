@@ -1,6 +1,6 @@
 {
   "name": "graphtest",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "private": true,
   "description": "Testing out some graph libraries, specifically visualizing a graph written in DOT",
   "main": "index.js",
