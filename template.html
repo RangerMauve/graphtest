@@ -1,57 +1,55 @@
 <svg
-	viewbox="
-		{{offsetX}}
-		{{offsetY}}
-		{{width}}
-		{{height}}
-	"
-	>
+	viewbox="{{offsetX}} {{offsetY}} {{width}} {{height}}"
+>
+	<style type="text/css">
+		polyline {
+			stroke: black;
+			stroke-linejoin: bevel;
+			stroke-width: 1;
+			fill: none;
+			marker-end:url(#Triangle);
+		}
+		rect {
+			fill: none;
+			stroke: black;
+		}
+		text {
+			font-size: 6px;
+			text-anchor:middle;
+			alignment-baseline:central;
+		}
+	</style>
+
+	<!-- The trianngles at the ends of the edges -->
 	<defs>
 		<marker id="Triangle"
 		viewBox="0 0 10 10"
 		refX="10" refY="5"
-		markerWidth="6"
-		markerHeight="6"
+		markerWidth="5"
+		markerHeight="5"
 		orient="auto">
 		<path d="M 0 0 L 10 5 L 0 10 z" />
 	</defs>
-	<g>
-		{{#edges}}
-		<polyline
-			marker-end="url(#Triangle)"
-			points="
-				{{#points}}
-					{{x}},{{y}}
-				{{/points}}
-			"
-			stroke="black"
-			fill="none"
-			stroke-width="1"
-		/>
-		{{/edges}}
-	</g>
-	<g>
-		{{#nodes}}
-		<g transform="translate(-{{rx}},-{{ry}})">
-			<rect
-				x="{{x}}"
-				y="{{y}}"
-				width="{{width}}"
-				height="{{height}}"
-				fill="none"
-				stroke="black"
-				stroke-width="1px"
-			/>
-		</g>
-		<text
-			text-anchor="middle"
-			alignment-baseline="central"
+
+	<!-- The edges between the nodes -->
+	{{#edges}}
+	<polyline points="{{#points}}{{x}},{{y}} {{/points}}"/>
+	{{/edges}}
+
+	<!-- The containers for the nodes -->
+	{{#nodes}}
+	<g transform="translate(-{{rx}},-{{ry}})">
+		<rect
 			x="{{x}}"
 			y="{{y}}"
-			font-size="6"
-		>
-			{{label}}
-		</text>
-		{{/nodes}}
+			width="{{width}}"
+			height="{{height}}"
+		/>
 	</g>
+	{{/nodes}}
+
+	<!-- The labels for the nodes -->
+	{{#nodes}}
+	<text x="{{x}}" y="{{y}}">{{label}}</text>
+	{{/nodes}}
 </svg>
